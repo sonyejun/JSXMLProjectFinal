@@ -1,0 +1,46 @@
+/* Reset CSS */
+
+/* Remove default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Include border and padding in the element's width and height calculation */
+}
+
+/* Reset styles for list elements */
+ul,
+ol {
+    list-style: none;
+    /* Remove list bullets */
+}
+
+/* Reset styles for links */
+a {
+    text-decoration: none;
+    /* Remove underline from links */
+    color: inherit;
+    /* Inherit color from parent element */
+}
+
+/* Reset styles for buttons */
+button {
+    border: none;
+    /* Remove button border */
+    background: none;
+    /* Make button background transparent */
+    padding: 0;
+    /* Remove button padding */
+    cursor: pointer;
+    /* Change cursor to pointer to indicate clickable state */
+}
+
+/* Default font settings */
+body {
+    font-family: Arial, sans-serif;
+    /* Set default font family */
+    font-size: 16px;
+    /* Set default font size */
+    line-height: 1.5;
+    /* Set default line height */
+}

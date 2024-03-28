@@ -1,0 +1,28 @@
+<% include ./component/head.ejs %>
+  <div class="visual <%- title%>">
+    <!-- Source: Image source or website URL -->
+    <div class="visualBg"></div>
+    <h1 class="visualText"></h1>
+  </div>
+
+  <div class="container">
+    <main class="main">
+      <div id="loader" class="loader"></div>
+      <section>
+        <h2>Current Location</h1>
+          <p id="locationInfo"></p>
+      </section>
+      <!-- weather -->
+      <section>
+        <h2>Weather</h2>
+        <p>Temperature: <span id="temperature"></span> °C</p>
+        <p>Description: <span id="weatherDescription"></span></p>
+      </section>
+      <!-- attractions -->
+      <section>
+        <h2>Tourist Attractions</h2>
+        <ul id="touristAttractions"></ul>
+      </section>
+    </main>
+  </div>
+<% include ./component/foot.ejs %>
